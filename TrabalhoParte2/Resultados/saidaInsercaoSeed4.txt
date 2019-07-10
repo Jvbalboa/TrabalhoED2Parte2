@@ -1,0 +1,84 @@
+N: 1000
+Arvore-B(2): 
+Tempo: 0,000998
+Comparações: 23522
+Cópias: 2895
+Arvore-B(20): 
+Tempo: 0,000997
+Comparações: 26935
+Cópias: 1331
+Arvore-VP: 
+Tempo: 0
+Comparações: 22961
+N: 5000
+Arvore-B(2): 
+Tempo: 0,008943
+Comparações: 154809
+Cópias: 14823
+Arvore-B(20): 
+Tempo: 0,00299
+Comparações: 176275
+Cópias: 8334
+Arvore-VP: 
+Tempo: 0,00203
+Comparações: 137167
+N: 10000
+Arvore-B(2): 
+Tempo: 0,019912
+Comparações: 340696
+Cópias: 29468
+Arvore-B(20): 
+Tempo: 0,005985
+Comparações: 371215
+Cópias: 17604
+Arvore-VP: 
+Tempo: 0,004987
+Comparações: 291853
+N: 50000
+Arvore-B(2): 
+Tempo: 0,112699
+Comparações: 2,05074e+006
+Cópias: 148960
+Arvore-B(20): 
+Tempo: 0,038897
+Comparações: 2,33058e+006
+Cópias: 90719
+Arvore-VP: 
+Tempo: 0,030948
+Comparações: 1,65843e+006
+N: 100000
+Arvore-B(2): 
+Tempo: 0,23429
+Comparações: 4,43072e+006
+Cópias: 296815
+Arvore-B(20): 
+Tempo: 0,098264
+Comparações: 4,95776e+006
+Cópias: 181433
+Arvore-VP: 
+Tempo: 0,046898
+Comparações: 3,47899e+006
+N: 500000
+Arvore-B(2): 
+Tempo: 1,64678
+Comparações: 2,57326e+007
+Cópias: 1,48845e+006
+Arvore-B(20): 
+Tempo: 0,47065
+Comparações: 2,85135e+007
+Cópias: 913004
+Arvore-VP: 
+Tempo: 0,447804
+Comparações: 1,91642e+007
+N: 1000000
+Arvore-B(2): 
+Tempo: 3,7179
+Comparações: 5,39958e+007
+Cópias: 2,98027e+006
+Arvore-B(20): 
+Tempo: 0,999766
+Comparações: 6,18546e+007
+Cópias: 1,83533e+006
+Arvore-VP: 
+Tempo: 1,06225
+Comparações: 3,99437e+007

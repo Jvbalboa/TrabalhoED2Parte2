@@ -1,0 +1,50 @@
+N: 100
+Tamanho da chave: 29394
+LZW: 
+Tempo: 0.02796
+Tamanho do código: 35204
+Taxa de Compressão: 1.19766
+Huffman: 
+Tempo: 0.003996
+Tamanho do código: 136921
+Taxa de Compressão: 0.582262
+N: 1000
+Tamanho da chave: 306925
+LZW: 
+Tempo: 0.239695
+Tamanho do código: 313910
+Taxa de Compressão: 1.02276
+Huffman: 
+Tempo: 0.039933
+Tamanho do código: 1431072
+Taxa de Compressão: 0.582826
+N: 5000
+Tamanho da chave: 1575846
+LZW: 
+Tempo: 1.27028
+Tamanho do código: 1470383
+Taxa de Compressão: 0.933075
+Huffman: 
+Tempo: 0.359548
+Tamanho do código: 7394709
+Taxa de Compressão: 0.586566
+N: 10000
+Tamanho da chave: 3146955
+LZW: 
+Tempo: 2.60855
+Tamanho do código: 2843697
+Taxa de Compressão: 0.903634
+Huffman: 
+Tempo: 0.467375
+Tamanho do código: 14783335
+Taxa de Compressão: 0.587208
+N: 45573
+Tamanho da chave: 14111237
+LZW: 
+Tempo: 11.5765
+Tamanho do código: 11800078
+Taxa de Compressão: 0.836219
+Huffman: 
+Tempo: 2.82823
+Tamanho do código: 66304634
+Taxa de Compressão: 0.587339

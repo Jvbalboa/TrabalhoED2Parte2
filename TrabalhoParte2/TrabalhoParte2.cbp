@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TrabalhoParte2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TrabalhoParte2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TrabalhoParte2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/ArvoreB.h" />
+		<Unit filename="include/ArvoreHuffman.h" />
+		<Unit filename="include/ArvoreVP.h" />
+		<Unit filename="include/Cenario1.h" />
+		<Unit filename="include/Cenario2.h" />
+		<Unit filename="include/LZW.h" />
+		<Unit filename="include/LeituraDaBase.h" />
+		<Unit filename="include/NoB.h" />
+		<Unit filename="include/NoHuffman.h" />
+		<Unit filename="include/NoVP.h" />
+		<Unit filename="include/Rating.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ArvoreB.cpp" />
+		<Unit filename="src/ArvoreHuffman.cpp" />
+		<Unit filename="src/ArvoreVP.cpp" />
+		<Unit filename="src/Cenario1.cpp" />
+		<Unit filename="src/Cenario2.cpp" />
+		<Unit filename="src/LZW.cpp" />
+		<Unit filename="src/LeituraDaBase.cpp" />
+		<Unit filename="src/NoB.cpp" />
+		<Unit filename="src/NoHuffman.cpp" />
+		<Unit filename="src/NoVP.cpp" />
+		<Unit filename="src/Rating.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

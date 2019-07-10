@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1562733528 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\main.cpp
+	"Cenario1.h"
+	"Cenario2.h"
+
+1562719295 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\cenario1.h
+	"ArvoreB.h"
+	"ArvoreVP.h"
+	"LeituraDaBase.h"
+	"Rating.h"
+
+1562735150 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\arvoreb.h
+	"NoB.h"
+	"Rating.h"
+
+1562719295 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\nob.h
+	"Rating.h"
+
+1562719295 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\rating.h
+
+1562734370 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\arvorevp.h
+	"NoVP.h"
+
+1562719295 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\novp.h
+	"Rating.h"
+
+1562722260 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\leituradabase.h
+	"Rating.h"
+	<iostream>
+
+1562735175 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\arvoreb.cpp
+	"ArvoreB.h"
+	<cstddef>
+
+1562734545 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\arvorevp.cpp
+	"ArvoreVP.h"
+	<iostream>
+	<cstddef>
+	<queue>
+
+1562734907 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\cenario1.cpp
+	"Cenario1.h"
+	<iostream>
+	<ctime>
+	<chrono>
+	<fstream>
+	<cstdlib>
+	<sstream>
+
+1562722412 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\leituradabase.cpp
+	"LeituraDaBase.h"
+	<iostream>
+	<fstream>
+	<chrono>
+	<random>
+	<cstdlib>
+
+1562719295 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\nob.cpp
+	"NoB.h"
+	<iostream>
+	<cstddef>
+
+1562719295 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\novp.cpp
+	"NoVP.h"
+	<cstddef>
+
+1562719295 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\rating.cpp
+	"Rating.h"
+
+1562732863 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\lzw.cpp
+	"LZW.h"
+	<unordered_map>
+	<map>
+	<string>
+	<iostream>
+	<vector>
+	<time.h>
+	<fstream>
+
+1562730155 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\lzw.h
+	<unordered_map>
+	<string>
+	<iostream>
+	<vector>
+
+1562732640 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\arvorehuffman.cpp
+	"ArvoreHuffman.h"
+	"NoHuffman.h"
+	<iostream>
+	<fstream>
+
+1562730238 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\arvorehuffman.h
+	"NoHuffman.h"
+	<iostream>
+
+1562730238 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\nohuffman.h
+	<iostream>
+
+1562730238 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\nohuffman.cpp
+	"NoHuffman.h"
+	<iostream>
+
+1562730435 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\cenario2.h
+	"ArvoreHuffman.h"
+	"NoHuffman.h"
+	"LZW.h"
+	"LeituraDaBase.h"
+
+1562733038 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\cenario2.cpp
+	"Cenario2.h"
+	<iostream>
+	<ctime>
+	<chrono>
+	<fstream>
+	<cstdlib>
+	<sstream>
+
