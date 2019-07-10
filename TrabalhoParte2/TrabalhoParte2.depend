@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1562733528 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\main.cpp
+1562774103 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\main.cpp
+	<iostream>
 	"Cenario1.h"
 	"Cenario2.h"
 
@@ -67,7 +68,7 @@
 1562719295 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\rating.cpp
 	"Rating.h"
 
-1562732863 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\lzw.cpp
+1562772857 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\lzw.cpp
 	"LZW.h"
 	<unordered_map>
 	<map>
@@ -83,7 +84,7 @@
 	<iostream>
 	<vector>
 
-1562732640 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\arvorehuffman.cpp
+1562771837 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\arvorehuffman.cpp
 	"ArvoreHuffman.h"
 	"NoHuffman.h"
 	<iostream>
@@ -96,7 +97,7 @@
 1562730238 c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\include\nohuffman.h
 	<iostream>
 
-1562730238 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\nohuffman.cpp
+1562771813 source:c:\users\victo\documents\ufjf\disciplinas\4° período\estrutura de dados ii\trabalho\trabalhoparte2\src\nohuffman.cpp
 	"NoHuffman.h"
 	<iostream>
 

@@ -22,7 +22,7 @@ LZW::LZW(string frase)
         codigoStr += to_string(codigo[i]);
 
 }
-
+//Constroi o dicionario utilizando os valores da tabela ASCII
 void LZW::construirDicionarioASCII()
 {
     string x;
@@ -37,11 +37,9 @@ void LZW::construirDicionarioASCII()
        //cout << z->first << " ----- " << z->second << endl;
     }
 }
-
+//Função de codificação
 void LZW::codificar()
 {
-    clock_t tempo;
-    tempo = clock();
     //cout << "Iniciando compressao de " << frase << endl << endl;
     int novoCod = 257;
     string seq;
@@ -49,25 +47,25 @@ void LZW::codificar()
     for(unsigned int i = 1; i <= frase.size(); i++)
     {
         char c = frase[i];
+        //Existe no dicionario, adciona o c na sequencia
         if(dicionario.count(seq+c) > 0)
         {
             //cout << "\nSequencia " << seq + c << " contida no dicionario, prosseguindo na compressao.\n" << endl;
             seq += c;
         }
+        //Não existe no dicionario, adciona a sequencia
         else
         {
             auto indice = dicionario.find(seq);
             //cout << "Adicionando a sequencia " << seq << " (" << indice->second << ")" << " para o vetor de codigos." << endl;
-            codigo.push_back(indice->second);
+            codigo.push_back(indice->second); //Adciona no vetor de codigo
             //cout << "Adicionando no dicionario o codigo " << novoCod << " para o texto "<< seq+c << endl;;
-            dicionario.insert(make_pair(seq+c, novoCod));
+            dicionario.insert(make_pair(seq+c, novoCod)); //Adciona no dicionario
             novoCod++;
             seq = c;
 
         }
     }
-    tempo = clock() - tempo;
-    //cout << (float)tempo/CLOCKS_PER_SEC << endl;
     //cout << "Segue sequencia de codigos: " << endl;
     //for(int i = 0; i < codigo.size(); i++)
         //cout << codigo[i] << endl;
@@ -101,6 +99,7 @@ void LZW::codificar()
 
 }*/
 
+//Função pra salvar em arquivo a saida comprimida
 void LZW::salvarArquivo()
 {
     ofstream arqc;
@@ -129,6 +128,7 @@ int LZW::getTamCodigo()
     return codigoStr.size();
 }
 
+//Calcula taxa de compressao
 float LZW::getTaxaCompressao()
 {
     float aux = codigoStr.size();

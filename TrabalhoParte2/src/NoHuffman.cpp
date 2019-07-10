@@ -7,10 +7,10 @@ using namespace std;
 //Inicializa o caractere e a frequência com os valores recebidos. Já esq e dir recebem nulo
 NoHuffman::NoHuffman(char chave, int frequencia)
 {
-    ch = chave;
-    freq = frequencia;
-    esq = NULL;
-    dir = NULL;
+    ch = chave; //Chave
+    freq = frequencia; //Quantidade de vezes que ele aparece
+    esq = NULL; //Nó a esquerda
+    dir = NULL; //Nó a direita
 }
 
 //Retorna se é folha
